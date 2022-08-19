@@ -14,7 +14,7 @@
 
 <body style="background-color: #D0F0C0;">
 
-    <link rel="icon" href="film.png">
+    <link rel="icon" href="./film.png">
 
     <div class="container">
         <h2>film</h2>
@@ -30,33 +30,33 @@
 
     
     <h1 style="color: #00674b ;" >action</h1>
-       <div id="tow" style="color: #00674b ;"><div class="flip-card">
+       <div id="example2" style="color: #00674b ; background-color:#8FBC8B ;"><div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-          <img src="./The_Maze_Runner (1).jpg" width="200px">  
+          <img src="./The_Maze_Runner (1).jpg" width="200px">
           </div>
           <div class="flip-card-back">
-            <h1>movie ac</h1> 
+            <h2>movie actors</h2> 
             <p>Dylan O'Brien-Thomas</p> 
             <p>Kaya Scodelario-Teresa</p>
             <p>Will Poulter-Gally</p>
-            <p>Thomas-Newt</p>
+            <p>Thomas-New</p>
           </div>
         </div>
       </div>
 
-        <h5>the maze runner</h5> 
+        <p>the maze runner</p>        
         <h5>6,8</h5>
        </div>
        
     <h1 style="color: #00674b ;">zombie</h1>
-       <div style="color: #00674b ;"><div class="flip-card">
+       <div id="example2" style="color: #00674b ; background-color: #8FBC8B;"><div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
           <img src="./world war.jpg" width="200px">  
           </div>
           <div class="flip-card-back">
-            <h1>movie actors</h1> 
+            <h2>movie actors</h2> 
             <p>Brad Pitt-Gerry</p> 
             <p>Mireille Enos-Karin</p>
             <p>James Badge-Captain</p>
@@ -69,13 +69,13 @@
        </div>
 
     <h1 style="color: #00674b ;">horror</h1>
-        <div id="for"style="color: #00674b ;" ><div class="flip-card">
+        <div id="example2" style="color: #00674b ; background-color:#8FBC8B ;" ><div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
               <img src="./bait.jpg" width="200px">  
               </div>
               <div class="flip-card-back">
-                <h1>movie actors</h1> 
+                <h2>movie actors</h2> 
                 <p>Xavier Samuel-Josh</p> 
                 <p>Alex Russell-Ryan</p>
                 <p>Sharni Vinson-Tina></p>
@@ -86,10 +86,31 @@
         <h5>bait</h5>
         <h5>6,7</h5>
 
-       </div><a href='https://www.freecodecamp.org/'>Link To freeCodeCamp</a>
+       <footer>
+        <p>"Copyright © 2022 all rights reserved"</p>        
+       </footer>
+       <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+       <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
 
-       <div id="footer">
-        <h4>"Copyright © 2022 all rights reserved"</h4>
-       </div>
 </body>
 </html>
